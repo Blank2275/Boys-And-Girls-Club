@@ -77,7 +77,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Staff Only" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jb1-bb-wjF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Staff Only" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jb1-bb-wjF">
                                 <rect key="frame" x="20" y="612" width="364" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -93,6 +93,7 @@
                             <constraint firstItem="sPq-Yn-vhq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="EdQ-xZ-7Ia"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nrg-a8-BKs" secondAttribute="trailing" constant="60" id="MtH-gQ-Rru"/>
                             <constraint firstItem="Nuu-XZ-SSd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="Nfu-LO-Dk5"/>
+                            <constraint firstItem="jb1-bb-wjF" firstAttribute="top" secondItem="Nuu-XZ-SSd" secondAttribute="bottom" constant="8" symbolic="YES" id="Osq-De-Bgn"/>
                             <constraint firstItem="u4t-86-DRp" firstAttribute="top" secondItem="sPq-Yn-vhq" secondAttribute="bottom" constant="60" id="RPD-a1-Jaq"/>
                             <constraint firstItem="Nuu-XZ-SSd" firstAttribute="top" secondItem="Nrg-a8-BKs" secondAttribute="bottom" constant="60" id="Uap-rb-9I0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jb1-bb-wjF" secondAttribute="trailing" constant="30" id="Wc8-HN-ygb"/>
