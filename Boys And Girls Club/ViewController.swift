@@ -48,6 +48,17 @@ class ViewController: UIViewController {
     @IBAction func checkIn(_ sender: Any) {
         performSegue(withIdentifier: "checkInOut", sender: nil)
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //tell check in/out screen wether it is in check in mode or check out mode
+        if segue.identifier == "checkInOut"{
+            let svc = segue.destination as! CheckInOutViewController
+            if sender == nil{
+                //check in case
+                //default is set tofalse
+                svc.isCheckIn = true
+            }
+        }
+    }
     
 
 }

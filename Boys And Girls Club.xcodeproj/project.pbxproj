@@ -13,6 +13,8 @@
 		B31829EE2720787E004FCE5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31829EC2720787E004FCE5F /* Main.storyboard */; };
 		B31829F02720787F004FCE5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31829EF2720787F004FCE5F /* Assets.xcassets */; };
 		B31829F32720787F004FCE5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31829F12720787F004FCE5F /* LaunchScreen.storyboard */; };
+		B3F71A302721BE6800F6E002 /* CheckInOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F71A2F2721BE6800F6E002 /* CheckInOutViewController.swift */; };
+		B3F71A342721CB1D00F6E002 /* DeviceStatusesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F71A332721CB1D00F6E002 /* DeviceStatusesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B31829EF2720787F004FCE5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B31829F22720787F004FCE5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B31829F42720787F004FCE5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F71A2F2721BE6800F6E002 /* CheckInOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInOutViewController.swift; sourceTree = "<group>"; };
+		B3F71A332721CB1D00F6E002 /* DeviceStatusesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStatusesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				B31829E82720787E004FCE5F /* SceneDelegate.swift */,
 				B31829EA2720787E004FCE5F /* ViewController.swift */,
 				B31829EC2720787E004FCE5F /* Main.storyboard */,
+				B3F71A332721CB1D00F6E002 /* DeviceStatusesTableViewController.swift */,
+				B3F71A2F2721BE6800F6E002 /* CheckInOutViewController.swift */,
 				B31829EF2720787F004FCE5F /* Assets.xcassets */,
 				B31829F12720787F004FCE5F /* LaunchScreen.storyboard */,
 				B31829F42720787F004FCE5F /* Info.plist */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B31829EB2720787E004FCE5F /* ViewController.swift in Sources */,
+				B3F71A342721CB1D00F6E002 /* DeviceStatusesTableViewController.swift in Sources */,
+				B3F71A302721BE6800F6E002 /* CheckInOutViewController.swift in Sources */,
 				B31829E72720787E004FCE5F /* AppDelegate.swift in Sources */,
 				B31829E92720787E004FCE5F /* SceneDelegate.swift in Sources */,
 			);
